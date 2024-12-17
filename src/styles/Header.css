@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    /* background-color: #007bff; */
+    color: white;
+  }
+  
+  .header h2 {
+    margin: 0;
+    color: white;
+  }
+  
+  .logout-btn {
+    background: #c6d4f3;
+    color:  #0056b3;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 40px;
+  }
+  
+  .logout-btn:hover {
+    background: #ddd;
+  }
+  

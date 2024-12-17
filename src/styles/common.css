@@ -1,0 +1,111 @@
+/* Reset body styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/images/background.jpg'); 
+  
+}
+
+
+/* Main container for the form and image */
+.form-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    width: 100%;
+    background-color: #90abe7;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+/* Image styling */
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Form container styling */
+.form-container {
+  flex: 1;
+  padding: 20px;
+  min-width: 300px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input, 
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Small button styling */
+.btn-primary {
+  width: 50%; 
+  padding: 12px; 
+  font-size: 1rem; 
+  font-weight: bold;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+  margin: 25px auto;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Make the layout responsive for smaller screens */
+@media (max-width: 768px) {
+  .form-page-container {
+    flex-direction: column; /* Stack image and form */
+    padding: 10px;
+  }
+
+  .image-container {
+    margin-bottom: 20px;
+  }
+
+  .form-container {
+    padding: 10px;
+  }
+}

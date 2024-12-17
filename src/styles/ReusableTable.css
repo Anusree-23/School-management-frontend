@@ -1,0 +1,60 @@
+.reusable-table-container {
+    width: 97%;
+    overflow-x: auto;
+    padding: 0;
+    margin: 26px;
+    text-align: left;
+    color:#f4f4f4;
+  }
+  
+  .reusable-table {
+    width: 100%; /* Set the table to take full width */
+    border-collapse: collapse; /* Optional: improves table styling */
+    table-layout: fixed; /* Optional: makes sure the table cells are evenly distributed */
+  }
+  
+  .reusable-table th,
+  .reusable-table td {
+    padding: 10px; /* Add padding for better readability */
+    text-align: left; /* Optional: aligns text to the left */
+    border: 1px solid #ddd; /* Add border to each cell */
+  }
+  
+  .reusable-table th {
+    background-color: #f4f4f4; /* Optional: light background for headers */
+    font-weight: bold; /* Optional: makes headers bold */
+    color:black
+  }
+  
+  .reusable-table .action-buttons {
+    display: flex;
+    justify-content: space-around; /* Distribute the action buttons evenly */
+    gap: 10px; /* Optional: space between buttons */
+  }
+  
+  .reusable-table button {
+    padding: 5px 10px; /* Optional: size for buttons */
+    font-size: 14px; /* Optional: button font size */
+  }
+  
+  .reusable-table .edit-button {
+    background-color: #4caf50; /* Green for Edit */
+    color: white;
+  }
+  
+  .reusable-table .delete-button {
+    background-color: #f44336; /* Red for Delete */
+    color: white;
+  }
+  
+  .reusable-table .custom-action-button {
+    background-color: #2196f3; /* Blue for custom actions */
+    color: white;
+  }
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+    margin-left:30px;
+  }
+  
